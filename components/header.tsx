@@ -24,7 +24,7 @@ export default function Header({ page }: HeaderProps): JSX.Element {
           <Link active={page === 'volunteer'} href='/volunteer'>
             Volunteer Work 
           </Link>
-          <Link href='mailto:catherine_ballantyne@yahoo.com'>Contact</Link>
+          <Link href='mailto:me@catherineballantyne.com'>Contact</Link>
         </ul>
       </nav>
       <style jsx>{`
