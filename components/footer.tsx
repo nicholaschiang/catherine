@@ -167,7 +167,7 @@ export default function Footer(): JSX.Element {
         </Group>
       </nav>
       <section>
-        <span>Copyright &copy; 2021 Nicholas Chiang. All rights reserved.</span>
+        <span>Copyright &copy; 2021 Catherine Ballantyne. All rights reserved.</span>
         <Select
           small
           value={theme}

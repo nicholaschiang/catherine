@@ -8,7 +8,7 @@ import TECSImage from 'assets/imgs/tecs.jpg';
 
 export default function ExperiencePage(): JSX.Element {
   return (
-    <Page title='Experience - Nicholas Chiang' id='research'>
+    <Page title='Experience - Catherine Ballantyne' id='research'>
       <Project {...LCTES} img={LCTESImage} />
       <Project {...TECS} img={TECSImage} />
     </Page>

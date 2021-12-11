@@ -2,7 +2,7 @@
   "private": true,
   "name": "website",
   "description": "Portfolio website built in Typescript using Next.js",
-  "author": "Nicholas Chiang <nicholas.h.chiang@gmail.com>",
+  "author": "Catherine Ballantyne <nicholas.h.chiang@gmail.com>",
   "homepage": "https://nicholaschiang.com",
   "license": "MIT",
   "scripts": {

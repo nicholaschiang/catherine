@@ -22,10 +22,10 @@ export default function Page({
   return (
     <>
       <Head>
-        <title>{title || 'Nicholas Chiang'}</title>
+        <title>{title || 'Catherine Ballantyne'}</title>
         <meta
           name='description'
-          content={description || 'Porfolio website for Nicholas Chiang'}
+          content={description || 'Porfolio website for Catherine Ballantyne'}
         />
       </Head>
       <div>

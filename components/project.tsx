@@ -53,7 +53,7 @@ export default function Project({
         <h2>{title}</h2>
         <h3>
           {authors.map(({ name, href }) =>
-            name === 'Nicholas Chiang' ? (
+            name === 'Catherine Ballantyne' ? (
               <strong className='author'>{name}</strong>
             ) : (
               <a
