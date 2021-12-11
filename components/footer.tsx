@@ -143,27 +143,15 @@ export default function Footer(): JSX.Element {
   return (
     <footer>
       <nav role='navigation'>
-        <Group label='Socials'>
-          <Link href='https://indiehackers.com/nicholaschiang'>
-            IndieHackers
-          </Link>
-          <Link href='https://instagram.com/niicholaschiiang'>Instagram</Link>
-          <Link href='https://facebook.com/niicholaschiiang'>Facebook</Link>
-          <Link href='https://linkedin.com/in/nicholaschiang'>LinkedIn</Link>
-          <Link href='https://twitter.com/niicholaschiang'>Twitter</Link>
-          <Link href='https://github.com/nicholaschiang'>GitHub</Link>
-        </Group>
         <Group label='Portfolio'>
-          <Link href='/web'>Web Development</Link>
-          <Link href='/photo'>Photography</Link>
-          <Link href='/film'>Filmmaking</Link>
-          <Link href='/research'>Research</Link>
+          <Link href='/experience'>Experience</Link>
+          <Link href='/education'>Education</Link>
+          <Link href='/volunteer'>Volunteer Work</Link>
         </Group>
         <Group label='Useful Links'>
           <Link href='/'>About</Link>
-          <Link href='mailto:nicholas@tutorbook.org'>Contact</Link>
-          <Link href='/resume.pdf'>Resume</Link>
-          <Link href='https://github.com/nicholaschiang/website'>Source</Link>
+          <Link href='mailto:catherine_ballantyne@yahoo.com'>Contact</Link>
+          <Link href='https://github.com/nicholaschiang/catherine'>Source</Link>
         </Group>
       </nav>
       <section>
