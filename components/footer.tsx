@@ -32,6 +32,7 @@ function Link({ href, children }: LinkProps): JSX.Element {
       <style jsx>{`
         li {
           padding: var(--geist-gap-quarter) 0;
+          line-height: 1;
         }
 
         a {
