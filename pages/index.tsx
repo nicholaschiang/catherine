@@ -105,6 +105,9 @@ export default function AboutPage(): JSX.Element {
             display: flex;
             align-items: center;
             justify-content: center;
+            max-width: 848px;
+            padding: 48px 24px;
+            margin: auto;
           }
 
           .img {

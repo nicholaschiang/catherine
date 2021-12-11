@@ -47,8 +47,8 @@ export default css.global`
 
     /* Page values */
     --geist-page-margin: var(--geist-space-gap);
-    --geist-page-width: 1000px;
-    --geist-page-width-with-margin: 1048px; /* 1000px + (2 * page margin) */
+    --geist-page-width: 800px;
+    --geist-page-width-with-margin: 848px; /* 800px + (2 * page margin) */
 
     /* Appearance */
     --geist-radius: 5px;

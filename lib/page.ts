@@ -1,10 +1,8 @@
 type PageId =
   | 'about'
-  | 'photo'
-  | 'film'
-  | 'web'
-  | 'research'
-  | 'resume'
+  | 'experience'
+  | 'education'
+  | 'volunteer'
   | 'contact';
 
 export default PageId;
