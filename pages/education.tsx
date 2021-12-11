@@ -6,9 +6,9 @@ import LCTESImage from 'assets/imgs/lctes.jpg';
 import TECS from 'assets/tecs.json';
 import TECSImage from 'assets/imgs/tecs.jpg';
 
-export default function ExperiencePage(): JSX.Element {
+export default function EducationPage(): JSX.Element {
   return (
-    <Page title='Experience - Nicholas Chiang' id='research'>
+    <Page title='Education - Nicholas Chiang' id='research'>
       <Project {...LCTES} img={LCTESImage} />
       <Project {...TECS} img={TECSImage} />
     </Page>
