@@ -9,26 +9,22 @@ export interface HeaderProps {
 export default function Header({ page }: HeaderProps): JSX.Element {
   return (
     <header>
-      <h1>Nicholas Chiang</h1>
+      <h1>Catherine Ballantyne</h1>
       <nav>
         <ul>
           <Link active={page === 'about'} href='/'>
             About
           </Link>
-          <Link active={page === 'photo'} href='/photo'>
-            Photography
+          <Link active={page === 'experience'} href='/experience'>
+            Experience 
           </Link>
-          <Link active={page === 'film'} href='/film'>
-            Filmmaking
+          <Link active={page === 'education'} href='/education'>
+            Education 
           </Link>
-          <Link active={page === 'web'} href='/web'>
-            Web Development
+          <Link active={page === 'volunteer'} href='/volunteer'>
+            Volunteer Work 
           </Link>
-          <Link active={page === 'research'} href='/research'>
-            Research
-          </Link>
-          <Link href='/resume.pdf'>Resume</Link>
-          <Link href='mailto:nicholas@tutorbook.org'>Contact</Link>
+          <Link href='mailto:catherine_ballantyne@yahoo.com'>Contact</Link>
         </ul>
       </nav>
       <style jsx>{`
