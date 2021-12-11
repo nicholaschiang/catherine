@@ -62,7 +62,7 @@ export default function AboutPage(): JSX.Element {
   }, [landscapeRef]);
 
   return (
-    <Page title='About - Nicholas Chiang' id='about'>
+    <Page title='About - Catherine Ballantyne' id='about'>
       <div className='flex'>
         <a ref={portraitRef} href={MeCropped.src} className='img portrait'>
           <Image
@@ -87,36 +87,16 @@ export default function AboutPage(): JSX.Element {
         </a>
         <article>
           <p>
-            Hi! I’m Nicholas, a senior at{' '}
-            <Link href='https://gunn.pausd.org'>Gunn High School</Link>.
+            Hi! I’m Catherine, an electrical engineering M.S. from Cornell University with over 30 years of experience across disparate disciplines. Currently, I focus on:
           </p>
+          <ul>
+            <li>Writing, project planning, and scheduling.</li>
+            <li>Iterative design with focus on simplicity.</li>
+            <li>Analytical, writing, and organizational skills.</li>
+          </ul>
           <p>
-            As a freshman, I helped{' '}
-            <Link href='https://luke.hsiao.dev'>Luke Hsiao</Link> with{' '}
-            <Link href='/research'>machine learning research</Link> at{' '}
-            <Link href='https://sing.stanford.edu'>Stanford University</Link>.
-          </p>
-          <p>
-            During my sophomore year, I created{' '}
-            <Link href='https://tutorbook.org'>Tutorbook</Link> to make peer
-            tutoring easier.
-          </p>
-          <p>
-            Now, I’m mostly a <Link href='/web'>web developer</Link>, sometimes
-            a <Link href='/photo'>photographer</Link>, and occasionally I’ll
-            film <Link href='/film'>fun videos</Link> to my favorite hip-hop
-            music.
-          </p>
-          <p>
-            I’m currently developing{' '}
-            <Link href='https://readhammock.com'>a newsletter reader</Link> with
-            two product people:{' '}
-            <Link href='https://martinsrna.com'>Martin Srna</Link> and{' '}
-            <Link href='https://twitter.com/JurajPal'>Juraj Pal</Link>.
-          </p>
-          <p>
-            Feel free to skim <Link href='/resume.pdf'>my resume</Link> or{' '}
-            <Link href='mailto:nicholas@tutorbook.org'>shoot me an email</Link>.
+            Feel free to skim <Link href='/experience'>my resume</Link> or{' '}
+            <Link href='mailto:catherine_ballantyne@yahoo.com'>shoot me an email</Link>.
           </p>
         </article>
         <style jsx>{`
