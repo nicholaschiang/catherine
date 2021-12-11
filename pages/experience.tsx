@@ -24,6 +24,7 @@ function Item({ title, company, location, time, content }: ItemProps): JSX.Eleme
         <h2>{title}<span>{time}</span></h2>
         <h3>{company}, {location}</h3>
         {content instanceof Array ? (
+          /* eslint-disable react/no-array-index-key */
           <ul>
             {content.map((item, idx) => (<li key={idx}>{item}</li>))}
           </ul>
@@ -34,6 +35,7 @@ function Item({ title, company, location, time, content }: ItemProps): JSX.Eleme
               {items.map((item, idx) => (<li key={idx}>{item}</li>))}
             </ul>
           </>
+          /* eslint-enable react/no-array-index-key */
         ))}
       </div>
       <style jsx>{`
