@@ -4,8 +4,8 @@ import NextLink from 'next/link';
 
 import Page from 'components/page';
 
-import MeCropped from 'assets/me/cropped.png';
-import MeOriginal from 'assets/me/original.jpg';
+import Placeholder from 'assets/placeholder.jpg';
+import PlaceholderCropped from 'assets/placeholder-cropped.png';
 
 async function initTilt(elem: HTMLAnchorElement): Promise<void> {
   const { default: VanillaTilt } = await import('vanilla-tilt');
@@ -64,19 +64,19 @@ export default function AboutPage(): JSX.Element {
   return (
     <Page title='About - Catherine Ballantyne' id='about'>
       <div className='flex'>
-        <a ref={portraitRef} href={MeCropped.src} className='img portrait'>
+        <a ref={portraitRef} href={PlaceholderCropped.src} className='img portrait'>
           <Image
-            src={MeCropped}
+            src={PlaceholderCropped}
             placeholder='blur'
-            height={365}
-            width={300}
+            height={250}
+            width={200}
             alt='Me'
             priority
           />
         </a>
-        <a ref={landscapeRef} href={MeOriginal.src} className='img landscape'>
+        <a ref={landscapeRef} href={Placeholder.src} className='img landscape'>
           <Image
-            src={MeOriginal}
+            src={Placeholder}
             placeholder='blur'
             objectPosition='center'
             objectFit='cover'
@@ -130,13 +130,13 @@ export default function AboutPage(): JSX.Element {
           }
 
           .img.portrait {
-            width: 300px;
-            height: 365px;
+            width: 200px;
+            height: 250px;
           }
 
           .img.landscape {
             width: 100%;
-            height: 365px;
+            height: 250px;
             display: none;
           }
 
