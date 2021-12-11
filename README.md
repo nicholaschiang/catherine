@@ -86,7 +86,7 @@ $ sudo apt-get install libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libgconf-
 7. Clone and `cd` into this repository locally by running:
 
 ```
-$ git clone https://github.com/nicholaschiang/website.git && cd website/
+$ git clone https://github.com/nicholaschiang/catherine.git && cd catherine/
 ```
 
 8. Follow [these instructions](https://yarnpkg.com/getting-started/install) to

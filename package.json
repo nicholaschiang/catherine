@@ -2,8 +2,8 @@
   "private": true,
   "name": "website",
   "description": "Portfolio website built in Typescript using Next.js",
-  "author": "Catherine Ballantyne <nicholas.h.chiang@gmail.com>",
-  "homepage": "https://nicholaschiang.com",
+  "author": "Nicholas Chiang <nicholas.h.chiang@gmail.com>",
+  "homepage": "https://catherineballantyne.com",
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
@@ -24,10 +24,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicholaschiang/website.git"
+    "url": "git+https://github.com/nicholaschiang/catherine.git"
   },
   "bugs": {
-    "url": "https://github.com/nicholaschiang/website/issues"
+    "url": "https://github.com/nicholaschiang/catherine/issues"
   },
   "dependencies": {
     "classnames": "^2.3.1",
